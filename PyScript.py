@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 # In[2]:
 
-df = pd.read_csv ("regrex1.csv")
+df = pd.read_csv (sys.argv[1])
 print (df)
 
 
